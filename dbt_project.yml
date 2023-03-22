@@ -20,6 +20,7 @@ models:
     materialized: table
     tmp:
       materialized: view
+      bind: false
 
 vars:
   airbyte_google_ads:
